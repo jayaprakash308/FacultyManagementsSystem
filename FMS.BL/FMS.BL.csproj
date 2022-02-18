@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMS.DAL\FMS.DAL.csproj" />
+    <ProjectReference Include="..\FMS.Entity\FMS.Entity.csproj" />
+    <ProjectReference Include="..\FMS.Exception\FMS.Exception.csproj" />
+  </ItemGroup>
+
+</Project>
